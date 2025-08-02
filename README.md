@@ -23,6 +23,7 @@ This is a full-stack internship assignment project built with:
    cd backend
 2. Install dependencies:
     npm install
+   
 3.Create .env file and add:
 
     PORT=5000
@@ -30,6 +31,7 @@ This is a full-stack internship assignment project built with:
     JWT_SECRET=pleasedude
 
 4.Start backend server: 
+  
    node server.js
 
 ###Frontend
