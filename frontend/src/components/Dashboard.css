@@ -1,0 +1,85 @@
+.dashboard-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(C:\Users\ASUS\Downloads\d4f253be85331e48813a765a31f9de2e.jpg);
+   background-repeat: repeat-y;
+   background-size: cover; 
+  background-position: center;
+}
+
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #8df846;
+  background: linear-gradient(to right, transparent, #1901016e, transparent);
+}
+
+
+.session-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.image-card img {
+  width: 100%;
+  max-width: 600px;
+  height: 300px; 
+  width: 400px;
+  object-fit: cover; 
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-card {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(37, 24, 35, 0.34);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-card h2 {
+  display: inline-block;
+  margin: 10px 0 5px;
+  padding: 6px 12px;
+  color: #092949fa;
+  background-color: #ffffff6c;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.title-wrapper {
+  text-align: center; 
+}
+.text-card p {
+  margin: 8px 0 10px;
+  padding: 6px 10px;
+  color: #e0f1e8;
+  background-color: #1b02026c;
+  border-radius: 4px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.card-divider {
+  width: 80%;
+  height: 2px;
+  margin: 30px auto;
+  background: linear-gradient(to right, transparent, #1901016e, transparent);
+}
+
+
+
+

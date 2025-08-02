@@ -1,0 +1,141 @@
+.add-session-bg {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('C:\Users\ASUS\Downloads\istockphoto-1543544664-612x612.jpg');
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+} 
+
+
+.add-session-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e4f0e9;
+  
+}
+
+.add-session-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #8df846;
+  background: linear-gradient(to right, transparent, #190101a4, transparent);
+  padding: 10px 0;
+  border-radius: 6px;
+}
+
+.add-session-container form {
+  background: rgba(37, 24, 35, 0.34);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.add-session-container label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #bbf5c8;
+}
+
+.add-session-container input[type="text"],
+.add-session-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.add-session-container input::placeholder,
+.add-session-container textarea::placeholder {
+  color: #000;
+}
+
+.add-session-container input[type="file"] {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.add-session-container button {
+  background-color: #8df846;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+.add-session-container button:hover {
+  background-color: #a6ff77;
+}
+
+.add-session-container p {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #040202;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.add-session-container form {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.add-session-container input[type="text"]:focus,
+.add-session-container textarea:focus {
+  outline: none;
+  border: 2px solid #8df846;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.add-session-container select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #000;
+  cursor: pointer;
+}
+
+.add-session-container select:focus {
+  outline: none;
+  border: 2px solid #8df846;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+.add-session-container input[type="text"]:hover,
+.add-session-container textarea:hover,
+.add-session-container select:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.add-session-container form > div {
+  margin-bottom: 15px;
+}

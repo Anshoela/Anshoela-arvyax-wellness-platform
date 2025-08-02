@@ -1,0 +1,90 @@
+.my-sessions-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e4f0e9;
+  background-image: url(C:\Users\ASUS\Downloads\white-flowers-in-cute-pastel-aesthetic-sky-vxfvgenxjsfykc3m.jpg);
+}
+
+.my-sessions-container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #8df846;
+  background: linear-gradient(to right, transparent, #1901016e, transparent);
+  padding: 10px 0;
+}
+
+.session-item {
+  background: rgba(37, 24, 35, 0.34);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.session-item img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.session-item h4 {
+  font-size: 1.4rem;
+  color: #0026ffab;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.session-item p {
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.session-item input[type="text"],
+.session-item textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #e80a0a;
+}
+
+.session-item input::placeholder,
+.session-item textarea::placeholder {
+  color: #bbb;
+}
+
+.session-item input[type="file"] {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.session-item button {
+  background-color: #8df846;
+  color: #000;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: 600;
+}
+
+.session-item button:hover {
+  background-color: #8fb976ad;
+}
