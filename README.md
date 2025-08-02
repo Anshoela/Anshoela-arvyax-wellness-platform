@@ -37,9 +37,13 @@ This is a full-stack internship assignment project built with:
 ###Frontend
 
   1.Navigate to frontend folder:
+  
     cd frontend
 
 2.Install dependencies:
+
     npm install
+    
 3.Start frontend:
+
     npm start
